@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+:root{
+   --primaryFont:'Raleway', sans-serif;
+   --secondaryFont:'Open Sans', sans-serif;
+   --primaryColor:#444444;
+}
+body{
+    font-family:var(--secondaryFont);
+    /* *common css start */
+}
+.container{
+    width:1170px;
+    margin:auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+
+/* header section starts */
+header{
+    background-color:var(--primaryColor);
+    color:white;
+    
+}
+header .leftText{
+    width:50%;
+    text-align: left;
+}
+header .leftText ul li{
+    padding:20px 10px;
+    display:inline-block;
+    border-right: 1px solid white;
+}
+header .leftText ul li:last-child{border: none;}
+header .leftText ul li a{
+    color:white;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+
+header .leftText ul li select{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 13px;
+}
+header .leftText ul li select option{
+   background-color:black;
+   color:white;
+}
+header .rightText{
+    width:50%;
+    text-align: right;
+
+}
+header .rightText ul li{
+    padding:20px 10px;
+    display:inline-block;
+    border-right: 1px solid white;
+}
+header .rightText ul li:last-child{border: none;}
+header .rightText ul li a{
+    display: inline-block;
+    color:white;
+    font-size: 13px;
+    font-weight: 400;
+}
+header .rightText ul li
+/* header section end */
+/* nav section start */
+nav{
+    
+}
